@@ -13,6 +13,7 @@
         <vitro-version>${project.version}</vitro-version>
         <maven-site-plugin.skip>true</maven-site-plugin.skip>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <skip-samples-install>true</skip-samples-install>
     </properties>
     <build>
         <plugins>

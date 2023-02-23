@@ -26,5 +26,9 @@
             <directory>${project.basedir}/src/main/resources</directory>
             <outputDirectory>.</outputDirectory>
         </fileSet>
+        <fileSet>
+            <directory>${project.build.directory}/vivo/home</directory>
+            <outputDirectory>.</outputDirectory>
+        </fileSet>
     </fileSets>
 </assembly>

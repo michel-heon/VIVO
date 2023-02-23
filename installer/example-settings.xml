@@ -7,11 +7,11 @@
             <id>defaults</id>
             <properties>
                 <app-name>vivo</app-name>
-
                 <vivo-dir>/usr/local/vivo/home</vivo-dir>
                 <tomcat-dir>/usr/local/tomcat</tomcat-dir>
-
                 <default-theme>wilma</default-theme>
+                <maven.compiler.release>11</maven.compiler.release>
+                <skip-samples-install>false</skip-samples-install>
             </properties>
         </profile>
     </profiles>
